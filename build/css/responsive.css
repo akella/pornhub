@@ -1,0 +1,12 @@
+body, .sectionWrapper { background: red !important; }
+
+.sectionWrapper a { color: #000; }
+
+.img { background: #000; -webkit-transform: rotate(3deg); -ms-transform: rotate(3deg); transform: rotate(3deg); opacity: 0.5; }
+.img img { opacity: 0; }
+
+.sectionTitle + div { display: none; }
+
+
+
+/*# sourceMappingURL=responsive.css.map */

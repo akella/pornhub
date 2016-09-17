@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1070px) {
+    .bar {
+        margin: 20px 0 10px 0;
+        padding: 0 20px
+    }
+    .bar .wrapper {
+        width: auto !important
+    }
+    #devices_list {
+        width: auto;
+        padding: 0 20px
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .g-badge {
+        right: 20px
+    }
+}
+@media only screen and (max-width: 800px) {
+    #devices_list .illustration {
+        display: none
+    }
+    #devices_list .device:before {
+        position: static;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px
+    }
+    #devices_list .device p {
+        width: auto;
+        margin-bottom: 20px
+    }
+    #devices_list .device h2 {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+        width: auto
+    }
+}
+@media only screen and (max-width: 750px) {
+    .g-badge {
+        display: none
+    }
+    .promo {
+        background: #229fff !important;
+        margin-bottom: 30px
+    }
+    .promo h2 {
+        font-size: 42px;
+        line-height: 1.1
+    }
+    .promo .wrapper {
+        color: #fff;
+        text-align: center
+    }
+    .promo .g-button_blue {
+        background: #fdda24;
+        color: #434e55
+    }
+    .promo .icons {
+        position: static;
+        margin-top: 30px;
+        color: #fff
+    }
+    .promo .icons span {
+        color: #fff
+    }
+    .promo [style="margin-top: 140px;font-weight: 700;"] {
+        margin-top: 20px !important
+    }
+    .promo .additional {
+        position: static
+    }
+}
+@media only screen and (max-width: 500px) {
+    .promo .icons p {
+        display: none
+    }
+    .bar h2 {
+        font-size: 24px;
+        line-height: 1.2
+    }
+    #devices_list .device {
+        padding: 20px 0
+    }
+    #devices_list .device:before {
+        display: block
+    }
+    #devices_list .device h2 {
+        display: block;
+        margin-top: 10px;
+        font-size: 28px;
+        line-height: 1.2
+    }
+    #devices_list .device p a.app-store-btn {
+        margin-right: 0
+    }
+}
+
+
+
+/*# sourceMappingURL=music.css.map */
